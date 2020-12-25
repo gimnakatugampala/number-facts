@@ -31,7 +31,7 @@ function getFactFetch(){
     //number value
     let number  = numberInput.value;
 
-    fetch(`http://numbersapi.com/${number}`)
+    fetch(`https://numbersapi.com/${number}`)
         .then(res => res.text())
         .then(data => {
             if(number !== ''){
